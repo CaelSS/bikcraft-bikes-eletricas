@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif; /*adiciona fontes nao serifadas*/
+    background-color: #000;
+    margin-top: 25px; /*leve altura no body pra nao encostar no topo da tela*/
+    color: #fff;
+    
+}
+img{
+    max-width: 100%;
+}
+
+.menu {
+    max-width: 1200px; /*define um tamanho maximo para o conteudo*/
+    margin: 0 auto; /*centraliza o conteudo*/
+    display: flex; /*coloca as tags lado a lado*/
+    justify-content: space-between; /*adiciona um espaco maximo entre os objetos*/
+    color: #fff;
+
+}
+.logomarca{
+    height: 30px; /*define o tamanho do logo*/
+}
+
+.menu ul {
+
+    display: flex; /*coloca a lista com os objetos lado a lado*/
+    gap: 30px;
+}
+
+.menu ul li {
+    font-size: 18px;
+    list-style: none; /*tira o enfeite de ponto da lista ul*/
+}
+
+.apresentacao{
+
+    max-width: 1200px;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center; /*desce os itens para o centro da tela verticalmente*/
+    gap: 20px;
+
+
+}
+
+.apresentacao h2{
+
+   
+    font-size: 3rem;
+}
