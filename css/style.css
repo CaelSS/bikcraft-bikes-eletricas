@@ -1,51 +1,95 @@
 body {
-    font-family: sans-serif; /*adiciona fontes nao serifadas*/
-    background-color: #000;
-    margin-top: 25px; /*leve altura no body pra nao encostar no topo da tela*/
-    color: #fff;
-    
+  font-family: sans-serif; /*adiciona fontes nao serifadas*/
+  margin: 0px;
+  padding: 0px;
+
+  /* margin-top: 25px; leve altura no body pra nao encostar no topo da tela */
+  color: #fff;
+  height: 2000px;
 }
-img{
-    max-width: 100%;
+
+.bg-color{
+    background-color: black;
+    box-shadow: inset 0px -120px #fff;
+}
+img {
+  height: 100%;
+  max-width: 100%;
+  display: block;
 }
 
 .menu {
-    max-width: 1200px; /*define um tamanho maximo para o conteudo*/
-    margin: 0 auto; /*centraliza o conteudo*/
-    display: flex; /*coloca as tags lado a lado*/
-    justify-content: space-between; /*adiciona um espaco maximo entre os objetos*/
-    color: #fff;
-
-}
-.logomarca{
-    height: 30px; /*define o tamanho do logo*/
+  box-sizing: border-box; /*nao contar com o valor dos paddings*/
+  max-width: 1200px; /*define um tamanho maximo para o conteudo*/
+  margin: 0 auto; /*centraliza o conteudo*/
+  display: flex; /*coloca as tags lado a lado*/
+  flex-wrap: wrap; /* pra quebrar a linha quando a tela for menor*/
+  gap: 20px; /* pra quando quebrar a linha ter um espaço de 20px*/
+  justify-content: space-between; /*adiciona um espaco maximo entre os 
+    objetos*/
+  align-items: center; /* pra os dois elementos do menu nao ficarem com niveis diferentes*/
+  padding: 25px;
+  color: #fff;
 }
 
 .menu ul {
-
-    display: flex; /*coloca a lista com os objetos lado a lado*/
-    gap: 30px;
+  display: flex; /*coloca a lista com os objetos lado a lado*/
+  flex-wrap: wrap; /*quebra a lista em linhas quando a tela for menor*/
+  gap: 30px;
 }
 
 .menu ul li {
-    font-size: 18px;
-    list-style: none; /*tira o enfeite de ponto da lista ul*/
+  font-size: 18px;
+  list-style: none; /*tira o enfeite de ponto da lista ul*/
+}
+.conteudo{
+    margin-bottom: 200px;
 }
 
-.apresentacao{
-
-    max-width: 1200px;
-    margin: 25px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center; /*desce os itens para o centro da tela verticalmente*/
-    gap: 20px;
-
-
+li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 1rem; /*pra aumentar a area de contato do mouse*/
+  display: inline-block; /*pra quando no responsivo um nao engolir o outro*/
 }
 
-.apresentacao h2{
+.menu li a::after {
+  /*crio o elemento aafter ocupando 0% pq ele so pode ser visivel no hover*/
+  content: ""; /*crio um conteudo "vazio", mas depois defino o tamanho*/
+  display: block; /*dico pra ele se comportar como bloco*/
+  height: 2px; /*defino seu tamanho*/
+  width: 0%; /* digo que sua largura é de 0% */
+  background-color: #fff;
+}
 
-   
-    font-size: 3rem;
+.menu li a:hover::after {
+  /*a aparicao do elemento criado anteriormente vai ter uma transição para o seu 100& em 0.5 segundos quando o mouse estiver em cima do elemento*/
+  width: 100%;
+  transition: 0.4s;
+}
+
+.apresentacao {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center; /*desce os itens para o centro da tela verticalmente*/
+  gap: 20px;
+}
+
+.apresentacao h2 {
+  font-size: 3rem;
+}
+
+.apresentacao p {
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+.apresentacao .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #e21;
+  border-radius: 4px;
 }
