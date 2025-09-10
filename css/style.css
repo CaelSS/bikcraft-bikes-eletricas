@@ -118,7 +118,7 @@ span {
 }
 .bikes-flex {
   display: flex;
-  flex-direction: 1;
+
   gap: 20px;
 }
 
@@ -144,7 +144,6 @@ span {
   margin-bottom: 10px;
   font-weight: bold;
   display: inline-block;
-
 }
 
 .bike-nome::before {
@@ -157,7 +156,6 @@ span {
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 2px;
-  
 }
 
 .bike-nome:hover::before {
@@ -165,11 +163,29 @@ span {
   background-color: #e4a30b;
   max-width: 100%;
   transition: 0.5s;
-
 }
 
 .bikes-flex .bike-preco {
   color: #3f3f3f;
   margin-top: 1px;
   margin-left: 13px;
+}
+/*===================================================================*/
+
+.bg-color-description {
+
+  margin-top: 200px;
+  background-color: #000000;
+  box-shadow: inset 0px -80px 0px #fff, /* embaixo */ inset 0px 80px 0px #fff; /* em cima */
+}
+
+.description-modelo {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.description-content {
+  align-self: center;
 }
