@@ -1,129 +1,141 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Site para demonstração de como seria um site para venda de bicicletas elétricas"
-    />
-    <title>Bikcraft - Bicicletas Elétricas</title>
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
 
-  <body>
-    <div class="bg-color">
-      <header class="menu">
-        <a href="">
-          <img
-            class="logomarca"
-            src="./Arquivos cliente/img/bikcraft.svg"
-            alt="Logo da marca bikcraft"
-        /></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Site para demonstração de como seria um site para venda de bicicletas elétricas" />
+  <title>Bikcraft - Bicicletas Elétricas</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
 
-        <nav>
-          <ul>
-            <li><a href="">Bicicletas </a></li>
-            <li><a href="">Seguros</a></li>
-            <li><a href="">Contato</a></li>
-          </ul>
-        </nav>
-      </header>
+<body>
+  <div class="bg-color">
+    <header class="menu">
+      <a href="">
+        <img class="logomarca" src="./Arquivos cliente/img/bikcraft.svg" alt="Logo da marca bikcraft" /></a>
 
-      <main class="apresentacao">
-        <div class="conteudo">
-          <h2>Bicicletas feitas sob medida<span>.</span></h2>
+      <nav>
+        <ul>
+          <li><a href="">Bicicletas </a></li>
+          <li><a href="">Seguros</a></li>
+          <li><a href="">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="apresentacao">
+      <div class="conteudo">
+        <h2>Bicicletas feitas sob medida<span>.</span></h2>
+
+        <p>
+          Bicicletas elétricas de alta precisão e qualidade, feitas sob medida
+          para o cliente. Explore o mundo na sua velocidade com a Bikcraft
+          <span>.</span>
+        </p>
+
+        <a href="#" class="btn"> selecione a sua </a>
+      </div>
+      <div>
+        <img src="./Arquivos cliente/img/bicicletas/nimbus-home.jpg" alt="imagem de uma bicicleta preta" />
+      </div>
+    </main>
+  </div>
+
+  <section class="bikes" aria-label="Seção de bikes">
+    <div class="bikes-bg">
+      <h2>Escolha a sua <span>.</span></h2>
+
+      <div class="bikes-flex">
+        <div class="bikes-content">
+          <img src="Arquivos cliente/img/bicicletas/magic.jpg" alt="" />
+          <p class="bike-nome">Magic Night</p>
+          <p class="bike-preco">R$ 29999</p>
+        </div>
+
+        <div class="bikes-content">
+          <img src="Arquivos cliente/img/bicicletas/nebula.jpg" alt="" />
+          <p class="bike-nome">Nebula</p>
+          <p class="bike-preco">R$ 19999</p>
+        </div>
+
+        <div class="bikes-content">
+          <img src="Arquivos cliente/img/bicicletas/nimbus.jpg" alt="" />
+          <p class="bike-nome">Nimbus</p>
+          <p class="bike-preco">R$ 49999</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-color-description">
+    <div class="description-modelo">
+      <div class="description-content">
+        <div class="description-content-article">
+          <h3>Tecnologia Avançada</h3>
+          <h2>você escolhe as suas cores e componentes<span>.</span></h2>
 
           <p>
-            Bicicletas elétricas de alta precisão e qualidade, feitas sob medida
-            para o cliente. Explore o mundo na sua velocidade com a Bikcraft
-            <span>.</span>
+            Cada Bikcraft é única e possui a sua identidade. As medidas serão
+            exatas para o seu corpo e altura, garantindo maior conforto e
+            ergonomia na sua pedalada. Você pode também personalizar
+            completamente as suas cores<span>.</span>
           </p>
 
-          <a href="#" class="btn"> selecione a sua </a>
+          <a href="#">ESCOLHA UM MODELO</a>
         </div>
-        <div>
-          <img
-            src="./Arquivos cliente/img/bicicletas/nimbus-home.jpg"
-            alt="imagem de uma bicicleta preta"
-          />
+
+        <div class="description-vantages">
+          <div>
+            <img src="Arquivos cliente/img/icones/eletrica.svg" alt="icone de bicicleta " />
+            <p class="tipo">Motor Elétrico</p>
+            <p>
+              Toda Bikcraft é equipada com um motor elétrico que possui
+              duração de até 120h. A bateria é recarregada com a sua energia
+              gasta ao pedalar <span>.</span>
+            </p>
+          </div>
+
+          <div>
+            <img src="Arquivos cliente/img/icones/rastreador.svg" alt="icone de rastreador gps " />
+            <p class="tipo">Rastreador</p>
+            <p>
+              Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos
+              rastreadores e sistemas anti-furto para garantir o seu sossego..
+            </p>
+          </div>
         </div>
-      </main>
+      </div>
+
+      <img src="Arquivos cliente/img/fotos/tecnologia.jpg" alt="" />
+    </div>
+  </section>
+
+  <section class="patrocinadores" aria-label="Marcas">
+
+    <div class="patrocinadores-marcas">
+
+      <h2>
+        nossos parceiros <span>.</span>
+      </h2>
+
+      <ul class="marcas-nomes">
+        <li><img src="Arquivos cliente/img/parceiros/caravan.svg" alt=""></li>
+        <li><img src="Arquivos cliente/img/parceiros/dogs.svg" alt=""></li>
+        <li><img src="Arquivos cliente/img/parceiros/flexblog.svg" alt=""></li>
+        <li><img src="Arquivos cliente/img/parceiros/handel.svg" alt=""></li>
+        <li><img src="Arquivos cliente/img/parceiros/lescone.svg" alt=""></li>
+        <li><img src="Arquivos cliente/img/parceiros/ranek.svg" alt=""></li>
+        <li><img src="Arquivos cliente/img/parceiros/wildbeast.svg" alt=""></li>
+        <li><img src="Arquivos cliente/img/parceiros/surfbot.svg" alt=""></li>
+
+      </ul>
+
+
     </div>
 
-    <section class="bikes" aria-label="Seção de bikes">
-      <div class="bikes-bg">
-        <h2>Escolha a sua <span>.</span></h2>
+  </section>
 
-        <div class="bikes-flex">
-          <div class="bikes-content">
-            <img src="Arquivos cliente/img/bicicletas/magic.jpg" alt="" />
-            <p class="bike-nome">Magic Night</p>
-            <p class="bike-preco">R$ 29999</p>
-          </div>
+</body>
 
-          <div class="bikes-content">
-            <img src="Arquivos cliente/img/bicicletas/nebula.jpg" alt="" />
-            <p class="bike-nome">Nebula</p>
-            <p class="bike-preco">R$ 19999</p>
-          </div>
-
-          <div class="bikes-content">
-            <img src="Arquivos cliente/img/bicicletas/nimbus.jpg" alt="" />
-            <p class="bike-nome">Nimbus</p>
-            <p class="bike-preco">R$ 49999</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="bg-color-description">
-      <div class="description-modelo">
-        <div class="description-content">
-          <div class="description-content-article">
-            <h3>Tecnologia Avançada</h3>
-            <h2>você escolhe as suas cores e componentes.</h2>
-
-            <p>
-              Cada Bikcraft é única e possui a sua identidade. As medidas serão
-              exatas para o seu corpo e altura, garantindo maior conforto e
-              ergonomia na sua pedalada. Você pode também personalizar
-              completamente as suas cores.
-            </p>
-
-            <a href="#">ESCOLHA UM MODELO</a>
-          </div>
-
-          <div class="description-vantages">
-            <div>
-              <img
-                src="Arquivos cliente/img/icones/eletrica.svg"
-                alt="icone de bicicleta "
-              />
-              <p class="tipo">Motor Elétrico</p>
-              <p>
-                Toda Bikcraft é equipada com um motor elétrico que possui
-                duração de até 120h. A bateria é recarregada com a sua energia
-                gasta ao pedalar.
-              </p>
-            </div>
-
-            <div>
-              <img
-                src="Arquivos cliente/img/icones/rastreador.svg"
-                alt="icone de rastreador gps "
-              />
-              <p class="tipo">Rastreador</p>
-              <p>
-                Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos
-                rastreadores e sistemas anti-furto para garantir o seu sossego..
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <img src="Arquivos cliente/img/fotos/tecnologia.jpg" alt="" />
-      </div>
-    </section>
-  </body>
 </html>
