@@ -327,3 +327,13 @@ span {
 .marcas-nomes img{
   margin: auto;
 }
+
+/*=======================================depoimentos=========================================================*/
+
+
+.depoimento{
+  margin-top: 120px;
+  color: #000000;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
