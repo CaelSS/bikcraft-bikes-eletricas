@@ -61,6 +61,21 @@ ul {
   .seguros-item li + li{
     margin-top: 20px;
   }
+  .seguros-item li{
+    display: flex;
+    align-items: center;
+    position: relative;
+    }
+
+  .seguros-item li::before{
+    content: "";
+    display: block;
+    width: 13px;
+    height: 9px;
+    background-image: url(../css/icones/lista.svg);
+    position: absolute;
+    left: -21px;
+  }
 
 .prata,
 .ouro,
@@ -106,6 +121,7 @@ ul {
   color: #332200;
   background: linear-gradient(#ffbb00, #e4a30b);
   border-radius: 4px;
+  max-width: max-content;
 }
 
 
@@ -126,7 +142,9 @@ ul {
   color: #332200;
   background: linear-gradient(#949493, #53514d);
   border-radius: 4px;
+  max-width: max-content;
 }
+
 
 .primario:hover {
   background: #e4a30b;
@@ -134,4 +152,12 @@ ul {
 
 .secundaria:hover {
   background: #949493;
+}
+
+
+@media (max-width: 800px){
+
+  .seguros{
+    grid-template-columns: 1fr;
+  }
 }
