@@ -1,5 +1,3 @@
-
-
 ul {
   list-style: none;
   margin: 0;
@@ -36,46 +34,48 @@ ul {
   grid-column: 1/-1;
 }
 
-.seguros-item{
+.seguros-item {
   background-color: #000000;
   padding: 32px 32px 32px 60px;
   display: grid;
   grid-template-columns: 1fr auto;
 
 
-  }
+}
 
-  .seguros-item h3{
-    margin-bottom: 40px;
-  }
+.seguros-item h3 {
+  margin-bottom: 40px;
+}
 
-  .seguros-item span{
-    grid-column: 2;
+.seguros-item span {
+  grid-column: 2;
 
-  }
+}
 
-  .seguros-item ul{
-    grid-column: 1/-1;
-    margin-bottom: 32px;
-  }
-  .seguros-item li + li{
-    margin-top: 20px;
-  }
-  .seguros-item li{
-    display: flex;
-    align-items: center;
-    position: relative;
-    }
+.seguros-item ul {
+  grid-column: 1/-1;
+  margin-bottom: 32px;
+}
 
-  .seguros-item li::before{
-    content: "";
-    display: block;
-    width: 13px;
-    height: 9px;
-    background-image: url(../css/icones/lista.svg);
-    position: absolute;
-    left: -21px;
-  }
+.seguros-item li+li {
+  margin-top: 20px;
+}
+
+.seguros-item li {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.seguros-item li::before {
+  content: "";
+  display: block;
+  width: 13px;
+  height: 9px;
+  background-image: url(../css/icones/lista.svg);
+  position: absolute;
+  left: -21px;
+}
 
 .prata,
 .ouro,
@@ -83,7 +83,8 @@ ul {
   font-size: 24px;
   color: #9C9C9C;
 }
-.seguros-item .tempo-seguro{
+
+.seguros-item .tempo-seguro {
   display: block;
 }
 
@@ -155,9 +156,9 @@ ul {
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
 
-  .seguros{
+  .seguros {
     grid-template-columns: 1fr;
   }
 }
