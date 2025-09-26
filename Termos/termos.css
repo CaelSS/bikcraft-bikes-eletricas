@@ -1,0 +1,51 @@
+.titulo-bg {
+    
+    background-color: #111111 ;
+}
+
+.titulo{
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.titulo h1 {
+
+    font-size: 3rem;
+    margin: 0;
+}
+
+.termos-conteudo-container h2{
+    margin: 0;
+    padding-top: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.termos-conteudo-container p{
+
+    font-size: 18px;
+    padding-bottom: 16px;
+    line-height: 24px;
+}
+
+.titulo p {
+
+    text-transform: uppercase;
+    color: #B2B2B2;
+}
+
+.termos-bg{
+    background-color: #ffffff;
+    color: #111111;
+   
+}
+
+.termos-conteudo-container{
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+

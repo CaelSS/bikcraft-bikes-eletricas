@@ -1,5 +1,6 @@
 @import url(../seguros/seguros.css);
 @import url(../footer/footer.css);
+@import url(../Termos/termos.css);
 
 body {
   font-family: sans-serif;
@@ -29,7 +30,7 @@ img {
   /*nao contar com o valor dos paddings*/
   max-width: 1200px;
   /*define um tamanho maximo para o conteudo*/
-  margin: 0 auto;
+  margin: auto;
   /*centraliza o conteudo*/
   display: flex;
   /*coloca as tags lado a lado*/
@@ -42,7 +43,7 @@ img {
     objetos*/
   align-items: center;
   /* pra os dois elementos do menu nao ficarem com niveis diferentes*/
-  padding: 25px;
+  padding: 25px 0px 25px 0px;
   color: #fff;
 }
 
