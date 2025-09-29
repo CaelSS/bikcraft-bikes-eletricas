@@ -2,13 +2,14 @@
 @import url(../footer/footer.css);
 @import url(../Termos/termos.css);
 @import url(../bicicletas/bicicletas.css);
-
+@import url(../seguros/perguntas.css);
+@import url(../seguros/vantagens.css);
 body {
   font-family: sans-serif;
   /*adiciona fontes nao serifadas*/
   margin: 0px;
   padding: 0px;
-
+ 
   /* margin-top: 25px; leve altura no body pra nao encostar no topo da tela */
   color: #fff;
   

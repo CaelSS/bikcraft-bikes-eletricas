@@ -1,0 +1,41 @@
+.vantagens-bg {
+    background-color: black;
+}
+
+#seguros-vantagens .titulo p{
+
+    font-size: 1rem;
+}
+
+.vantagens-titulo {
+    font-size: 3rem;
+}
+
+.vantagens{
+    padding-top: 60px;
+}
+
+.lista-vantagens {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.lista-vantagens img {
+    width: 32px;
+    height: 32px;
+}
+
+.lista-vantagens h3 {
+    padding-top: 10px;
+}
+
+.lista-vantagens p{
+
+    color: #9c9c9c;
+}
+

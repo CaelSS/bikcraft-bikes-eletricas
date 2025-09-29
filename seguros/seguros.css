@@ -8,7 +8,7 @@ ul {
 
 .seguros-bg {
   font-size: 40px;
-  background-color: rgb(24, 24, 24);
+  background-color: #111111;
   color: #ffffff;
   font-weight: bold;
 }
@@ -18,6 +18,10 @@ ul {
   color: #e4a30b;
 }
 
+#seguros .seguros{
+  padding-top: 0px;
+  background-color: #111111;
+}
 .seguros {
   margin: auto;
   max-width: 1200px;
@@ -39,6 +43,7 @@ ul {
   padding: 32px 32px 32px 60px;
   display: grid;
   grid-template-columns: 1fr auto;
+  border-radius: 4px;
 
 
 }
