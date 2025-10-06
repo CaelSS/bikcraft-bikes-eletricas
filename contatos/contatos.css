@@ -1,0 +1,61 @@
+.contato{
+    background: #000000;
+   display: grid;
+   grid-template-columns: 5fr 7fr;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, alpha);
+   border-radius: 5px 0 0 5px;
+}
+
+
+.endereço, .contato-formulario{
+
+    padding: 60px
+    
+
+}
+
+.contato-formulario{
+    background: #ffffff;
+    color: #000000;
+}
+
+.endereço h2{
+    margin-bottom: 60px;
+}
+
+.endereço{
+    margin-bottom: 60px;
+}
+
+
+.contato-endereco{
+  
+    margin-bottom: 32px;
+    padding-left: 28px;
+    background: url(../css/icones/local.svg) no-repeat 0px -2px;
+    
+}
+
+.contatos-meios{
+    padding-top: 32px;
+    border-top: solid 1px #9c9c9c;
+}
+
+.contatos-meios a{
+
+    text-decoration: none;  
+    color: white;
+    display: grid;
+    padding-left: 28px;
+    margin-bottom: 1rem;
+}
+
+.contatos-meios .email-contatos{
+    
+    background: url(../css/icones/email.svg) no-repeat 0px -2px;
+}
+
+.contatos-meios .telefone-contatos{
+    margin-bottom: 32px;
+    background: url(../css/icones/telefone.svg) no-repeat 0px -2px;
+}
