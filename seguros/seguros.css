@@ -4,8 +4,29 @@ ul {
   padding: 0;
 }
 
+.lista-vantagens{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
 
+}
 
+.lista-vantagens img{
+  width: 30px;
+  height: 30px;
+}
+
+.lista-vantagens p{
+
+  font-size: 1rem;
+  color: #9C9C9C;
+}
+
+.lista-vantagens h3{
+  margin-top: 20px;
+}
 .seguros-bg {
   font-size: 40px;
   background-color: #111111;
@@ -109,6 +130,11 @@ ul {
   line-height: 1.25;
 }
 
+.perguntas-container h2{
+
+  padding: 60px 0px 60px 0px !important;
+}
+
 .primario,
 .secundaria {
   /* font-size: 1rem;
@@ -160,6 +186,9 @@ ul {
   background: #949493;
 }
 
+.vantagens-titulo{
+  font-size: 3rem;
+}
 
 @media (max-width: 800px) {
 
