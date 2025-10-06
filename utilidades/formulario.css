@@ -1,0 +1,59 @@
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form label {
+    display: block;
+    font: 400;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.form input[type="text"], .form input[type="email"], .form textarea, .form [type="number"] {
+
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+    background-color: #F7F7F7;
+    border: 1px  solid #EDEDED;
+    padding: 12px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form input[type="text"]:focus, .form input[type="email"]:focus, .form textarea:focus, .form [type="number"]:focus{
+
+    outline: none;
+    border-color: #e4a30b;
+    background: white;
+    box-shadow: 0 0 0 2px #fea;
+}
+
+
+.form .col-2{
+
+    grid-column: span 2;
+}
+
+button{
+    
+    text-decoration: none;
+  /*retira o sublinhado da palavra*/
+  text-transform: uppercase;
+  /*deixa a palavra maiuscula*/
+  display: inline-block;
+  box-shadow: 0 2px 50px rgba(161, 159, 159, 0.5);
+  padding: 20px 30px;
+  font-weight: bold;
+  color: #332200;
+  background: linear-gradient(#ffbb00, #e4a30b);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover{
+
+    color: white;
+}
