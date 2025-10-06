@@ -4,6 +4,9 @@
 @import url(../bicicletas/bicicletas.css);
 @import url(../seguros/perguntas.css);
 @import url(../bicicleta/bicicleta.css);
+@import url(../contatos/contatos.css);
+@import url(../contatos/lojas.css);
+@import url(../utilidades/formulario.css);
 
 body {
   font-family: sans-serif;
