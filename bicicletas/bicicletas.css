@@ -1,5 +1,6 @@
 .bikes {
     background-color: white;
+   
 }
 
 .bicicletas {
@@ -16,11 +17,14 @@
 
 .bicicletas-bg {
     background-image: linear-gradient(to right, white 30%, black 0%);
+   
 }
 
-.bikes-cor{
-    color: white !important;
+.classe-letra-branca{
+
+    color: white;
 }
+
 
 
 .bicicletas-img {
@@ -65,7 +69,7 @@
     grid-template-columns: 1fr auto;
     align-items:center;
     padding: 25px;
-    color: #000000;
+    color: #000000 !important;
 }
 
 .bicicletas-conteudo a{

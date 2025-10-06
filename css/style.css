@@ -3,7 +3,8 @@
 @import url(../Termos/termos.css);
 @import url(../bicicletas/bicicletas.css);
 @import url(../seguros/perguntas.css);
-@import url(../seguros/vantagens.css);
+@import url(../bicicleta/bicicleta.css);
+
 body {
   font-family: sans-serif;
   /*adiciona fontes nao serifadas*/
