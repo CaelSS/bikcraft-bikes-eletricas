@@ -7,6 +7,7 @@
 @import url(../contatos/contatos.css);
 @import url(../contatos/lojas.css);
 @import url(../utilidades/formulario.css);
+@import url(../orcamento/orcamento.css);
 
 body {
   font-family: sans-serif;
