@@ -21,7 +21,7 @@ body {
 }
 
 .bg-color {
-  background-color: black;
+  background: black url('../css/dec/bottom-left.svg') no-repeat bottom 160px left 20px;
   box-shadow: inset 0px -120px #fff;
 }
 
@@ -356,7 +356,7 @@ blockquote {
   color: #332200;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #e4a30b;
+  background: #e4a30b url(../css/dec/bottom-left.svg) no-repeat top 220px right 80px;
 }
 
 .depoimento img {
